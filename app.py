@@ -85,9 +85,9 @@ class SignupApp:
                     st.error("Please fill in all required fields (Email and Password)")
                     return
                 
-                if not self.is_valid_email(email):
-                    st.error("Please enter a valid email address")
-                    return
+                # if not self.is_valid_email(email):
+                #     st.error("Please enter a valid email address")
+                #     return
                 
                 if password != confirm_password:
                     st.error("Passwords do not match")
